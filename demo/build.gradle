@@ -1,26 +1,12 @@
-plugins {
-    id 'org.springframework.boot' version '2.3.1.RELEASE'
-    id 'io.spring.dependency-management' version '1.0.9.RELEASE'
-    id 'java'
+apply plugin: 'org.springframework.boot'
+ext{
+    mainClassName = "com.june.security.demo.DemoApplication"
 }
 
-group = 'com.june.security'
-version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '11'
-
-repositories {
-    mavenCentral()
-}
-
-dependencies {
-    implementation 'org.springframework.boot:spring-boot-starter-security'
-    implementation 'org.springframework.boot:spring-boot-starter-web'
-    testImplementation('org.springframework.boot:spring-boot-starter-test') {
-        exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
-    }
-    testImplementation 'org.springframework.security:spring-security-test'
-}
-
-test {
-    useJUnitPlatform()
+dependencies{
+    compile(project(":app"))
+    compile(project(":browser"))
+    compile(project(":core"))
+    implementation("org.springframework.boot:spring-boot-starter-web")
+    testImplementation('org.springframework.boot:spring-boot-starter-test')
 }

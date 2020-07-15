@@ -1,5 +1,9 @@
-rootProject.name = 'juneSecurity'
+rootProject.name = 'security'
 include 'app'
+project(":app").projectDir = file('app')
 include 'browser'
+project(":browser").projectDir = file('browser')
 include 'core'
+project(":core").projectDir = file('core')
 include 'demo'
+project(":demo").projectDir = file('demo')

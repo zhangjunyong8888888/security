@@ -4,33 +4,17 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="D:\work\idea_work\young\security" />
-        <option name="gradleHome" value="D:/soft/gradle-5.6.3" />
-        <option name="useAutoImport" value="true" />
-        <option name="useQualifiedModuleNames" value="true" />
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="D:\work\idea_work\young\security\app" />
-        <option name="gradleHome" value="D:/soft/gradle-5.6.3" />
-        <option name="useQualifiedModuleNames" value="true" />
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="D:\work\idea_work\young\security\browser" />
-        <option name="gradleHome" value="D:/soft/gradle-5.6.3" />
-        <option name="useQualifiedModuleNames" value="true" />
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="D:\work\idea_work\young\security\core" />
-        <option name="gradleHome" value="D:/soft/gradle-5.6.3" />
-        <option name="useQualifiedModuleNames" value="true" />
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="D:\work\idea_work\young\security\demo" />
-        <option name="gradleHome" value="D:/soft/gradle-5.6.3" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="11" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/browser" />
+            <option value="$PROJECT_DIR$/core" />
+            <option value="$PROJECT_DIR$/demo" />
+          </set>
+        </option>
         <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
     </option>
